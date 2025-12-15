@@ -1,3 +1,11 @@
+
 {
-  "IDX.agenticWorkspace": true
+  // Enable the Tailwind CSS extension for TypeScript React files
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "javascript"
+  },
+  // Enable auto-completion and suggestions
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
